@@ -4,11 +4,9 @@ import './App.css';
 function App() {
   const api_key = `${process.env.REACT_APP_API_KEY}`;
 
-  console.log(api_key);
+  console.log("api key");
 
   const url = `https://openapi.etsy.com/v2/listings/967023146?api_key=${process.env.REACT_APP_API_KEY}`;
-
-  // https://openapi.etsy.com/v2/listings/967023146?api_key=r0ue7c82kc86u1pzrvu38tya
 
 
 
